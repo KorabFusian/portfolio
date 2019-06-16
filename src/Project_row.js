@@ -1,5 +1,5 @@
 import React from "react";
-import "./Project_row.css"
+import "./styling/Project_row.css"
 
 function ProjectRow({ props }) {
   return (

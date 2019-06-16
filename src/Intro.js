@@ -1,10 +1,11 @@
 import React from "react";
-import "./Intro.css"
+import "./styling/Intro.css"
 
 function Intro() {
   return (
-    <div className="row" id="Intro-row">
-      <h1>Hello</h1>
+    <div className="typewriter row" id="Intro-row">
+      <code>Hi! I'm a full-stack developer.</code>
+      <button className="btn-large black">See my work</button>
     </div>
   );
 }

@@ -1,8 +1,13 @@
+// Import data
 import projectsData from './projects_list.json'
-import modelLeaning from './model-leaning.jpeg'
-import purpleComputer from './purple-computer.jpeg'
 
-const images = [modelLeaning, purpleComputer]
+// Import images
+import moodmancer from './Moodmancer Screenshot.png'
+import purpleComputer from './purple-computer.jpeg'
+import cauriGuide from './Cauri Guide Screenshot.png'
+import lmcc from './LMCC Screenshot.png'
+
+const images = [moodmancer, purpleComputer, cauriGuide, lmcc]
 
 export const projectsList = projectsData.map((projectData) => {
     const image = images[projectData.imageId]

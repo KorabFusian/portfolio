@@ -3,7 +3,8 @@ import ProjectRow from "./Project_row";
 
 function Projects(props) {
   return (
-    <div>
+    <div className="row">
+    <h3>Recent projects</h3>
       {props.projects.map(project => (
         <ProjectRow props={project} key={project.title} />
       ))}

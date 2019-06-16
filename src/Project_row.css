@@ -1,0 +1,11 @@
+.project-image {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.project-card {
+    height: 700px;
+    padding: 1rem !important;
+}

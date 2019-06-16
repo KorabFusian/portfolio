@@ -15,12 +15,12 @@
     "title": "Cauri Guide",
     "link": "",
     "description": "Cauri Guide is a web app to promote New York City's Black and Latinx-owned businesses. I built the site with Wordpress, using Beaver Builder, a drag-and-drop plugin that allowed me to create the design of the whole site. I also used Geodirectory, a tool to list places and locate them on a map, interacting with the Google Maps API.",
-    "imageId": "1"
+    "imageId": "2"
   },
   {
     "title": "LMCC",
     "link": "",
     "description": "A website built for Lower Manhattan Cultural Council (LMCC) to present the company and share resources. The previous website had not been answering the stakeholders' needs, so over a period of 6 months, I was tasked with building a new site architecture, design and aesthetic to respond to all users' expectations.\nThe site was built on Wordpress with an eye towards maintainability, using Beaver Builder to fully control the design of the site. It is also mobile-responsive, with some adaptive elements (such as a hamburger menu), and it is navigable despite its dozens of pages thanks to navigation breadcrumbs.",
-    "imageId": "1"
+    "imageId": "3"
   }
 ]

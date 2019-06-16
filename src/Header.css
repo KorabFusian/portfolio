@@ -1,0 +1,28 @@
+.App-header {
+  padding: 3vh 3vw 1vh 3vw;
+  background-color: #000000;
+  color: #ffffff;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+}
+
+#Navbar {
+  background-color: transparent;
+  height: auto;
+}
+
+#Navbar>a{
+  margin: 2vw;
+  font-size: 1.2em;
+  font-family: "Josefin Sans";
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+#text-logo {
+  font-family: "Playfair Display", 'Times New Roman', Times, serif;
+  font-weight: 700;
+  white-space: nowrap;
+  margin: 0px;
+}

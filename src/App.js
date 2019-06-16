@@ -1,14 +1,13 @@
 import React from "react";
 import "./App.css";
 import Header from "./Header.js";
-import Content from "./Projects.js";
-import {projectsList} from "./assets/index";
+import Content from "./Content.js";
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <Content projects={projectsList} />
+      <Content />
     </div>
   );
 }

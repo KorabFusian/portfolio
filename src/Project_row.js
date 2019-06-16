@@ -1,10 +1,11 @@
-import React from 'react';
+import React from "react";
+import "./Project_row.css"
 
-function ProjectRow({props}) {
+function ProjectRow({ props }) {
   return (
-    <div>
-      <img src={props.image} />
-      <h2>{props.title}</h2>
+    <div className="project-card col s12 l4 m6">
+        <img className="project-image" src={props.image} />
+      <h4>{props.title}</h4>
       <p>{props.description}</p>
     </div>
   );

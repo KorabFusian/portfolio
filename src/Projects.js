@@ -6,7 +6,7 @@ function Projects(props) {
     <div className="row">
     <h3>Recent projects</h3>
       {props.projectsList.map(project => (
-        <ProjectRow props={project} key={project.title} />
+        <ProjectRow project={project} logo={props.images[project.logo]} key={project.title} />
       ))}
     </div>
   );

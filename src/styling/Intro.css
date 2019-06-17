@@ -1,6 +1,6 @@
 #Intro-row {
     height: calc(100vh - 100px);
-    background: url("../assets/fragments.svg") no-repeat center center; 
+    background: url("../assets/images/fragments.svg") no-repeat center center; 
     background-size: cover;
     display: flex;
     justify-content: center;

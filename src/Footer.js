@@ -6,9 +6,33 @@ function Footer() {
   return (
     <footer className="App-footer">
       <p>
-        Github: <a href="github.com/friggito">@friggito</a>{"    "}|{"    "}Linkedin:{" "}
-        <a href="linkedin.com/okfriggit">/okfriggit</a>{"    "}|{"    "}Twitter:{" "}
-        <a href="twitter.com/friggito">@friggito</a>
+        Github:{" "}
+        <a
+          href="http://github.com/friggito"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          @friggito
+        </a>
+        {"    "}|{"    "}Linkedin:{" "}
+        <a
+          href="http://linkedin.com/in/friggito"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          /friggito
+        </a>
+        {"    "}|{"    "}Twitter:{" "}
+        <a
+          href="http://twitter.com/friggito"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          @friggito
+        </a>
+      </p>
+      <p>
+        <a href="mailto:ornella.friggit@gmail.com">ornella.friggit@gmail.com</a>
       </p>
     </footer>
   );

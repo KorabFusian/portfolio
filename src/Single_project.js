@@ -3,26 +3,30 @@ import "./styling/Single_project.css";
 import { Link } from "react-router-dom";
 
 function SingleProject(props) {
+  const project = props.projectsList[props.idx]
+  const logo = props.images[project.logo]
+  const prev = props.projectsList[props.idx - 1]
+  const next = props.projectsList[props.idx + 1]
   return (
     <div className="row single-proj-container">
       <div className="single-proj-data">
-        <img className="single-proj-img" src={props.image} />
-        <h3>{props.title}</h3>
-        <p>{props.description}</p>
+        <img className="single-proj-img" src={logo} alt={project.logo} />
+        <h3>{project.title}</h3>
+        <p>{project.description}</p>
         <h4>Technologies used:</h4>
-        {props.technologies.map(tech => (
+        {project.technologies.map(tech => (
           <p key={tech}>
             <i className="material-icons">build</i>
             {"  "}
             {tech}
           </p>
         ))}
-        <button className="btn-large black">Visit {props.title} Website</button>
+        <button className="btn-large black">Visit {project.title} Website</button>
       </div>
       <div className="arrow-container">
         <div className="nav-arrow">
-          {props.prev ? (
-            <Link to={`/${props.prev}`}>
+          {prev ? (
+            <Link to={`/${prev.link}`}>
               <i className="material-icons large">navigate_before</i>
             </Link>
           ) : (
@@ -30,8 +34,8 @@ function SingleProject(props) {
           )}
         </div>
         <div className="nav-arrow">
-          {props.next ? (
-            <Link to={`/${props.next}`}>
+          {next ? (
+            <Link to={`/${next.link}`}>
               <i className="material-icons large">navigate_next</i>
             </Link>
           ) : (

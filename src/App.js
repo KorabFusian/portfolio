@@ -1,12 +1,15 @@
 import React from "react";
 import "./styling/App.css";
-import Header from "./Header.js";
-import Home from "./Home.js";
-import About from "./About.js";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { projectsList } from "./assets/index";
-import SingleProject from "./Single_project";
+
+// Components
+import About from "./About.js";
+import Footer from "./Footer";
+import Header from "./Header.js";
+import Home from "./Home.js";
 import Projects from "./Projects";
+import SingleProject from "./Single_project";
 
 class App extends React.Component {
   constructor(props) {
@@ -42,6 +45,7 @@ class App extends React.Component {
               <Route render={props => <Home {...this.state} />} />
             </Switch>
           </div>
+          <Footer />
         </div>
       </Router>
     );

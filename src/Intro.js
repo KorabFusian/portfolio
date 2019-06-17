@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from "react-router-dom";
 import "./styling/Intro.css";
 
 function Intro() {
@@ -6,7 +7,7 @@ function Intro() {
     <div className="typewriter row" id="Intro-row">
       <p>Hi! I'm a full-stack developer.</p>
       <div>
-        <button className="btn-large black">See my work</button>
+        <Link to="/portfolio"><button>See my work</button></Link>
       </div>
     </div>
   );

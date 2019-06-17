@@ -7,8 +7,8 @@ import lmccLogo from "./LMCC_Logo.png";
 import lmccScreenshot from "./LMCC_Screenshot.png";
 import moodmancerLogo from "./Moodmancer_logo.png";
 import moodmancerScreenshot from "./Moodmancer_Screenshot.png";
-import salarySimLogo from "./purple-computer.jpeg";
-import salarySimScreenshot from "./purple-computer.jpeg";
+import salarySimLogo from "./SalarySim_Logo.png";
+import salarySimScreenshot from "./SalarySim_Logo.png";
 
 const images = {
   aboutMe,

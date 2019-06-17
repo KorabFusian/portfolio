@@ -1,7 +1,7 @@
 import React from "react";
 import "./styling/App.css";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import { projectsList, images } from "./assets/index";
+import { projectsList, images, resumeUrl } from "./assets/index";
 
 // Components
 import About from "./About.js";
@@ -10,11 +10,12 @@ import Header from "./Header.js";
 import Home from "./Home.js";
 import Projects from "./Projects";
 import SingleProject from "./Single_project";
+import Resume from "./Resume";
 
 class App extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { projectsList, images };
+    this.state = { projectsList, images, resumeUrl };
   }
   render() {
     return (
@@ -35,6 +36,11 @@ class App extends React.Component {
                 exact
                 path="/portfolio"
                 render={props => <Projects {...this.state} />}
+              />
+                            <Route
+                exact
+                path="/resume"
+                render={props => <Resume resumeUrl={this.state.resumeUrl} />}
               />
               <Route
                 exact

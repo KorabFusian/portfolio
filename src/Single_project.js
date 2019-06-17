@@ -21,7 +21,7 @@ function SingleProject(props) {
             {tech}
           </p>
         ))}
-        <button className="btn-large black">Visit {project.title} Website</button>
+        <a href={project.projectUrl}><button>Visit {project.title} Website</button></a>
       </div>
       <div className="arrow-container">
         <div className="nav-arrow">

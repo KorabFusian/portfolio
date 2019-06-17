@@ -8,7 +8,7 @@
     flex-direction: column;
 }
 
-.typewriter code {
+.typewriter p {
     overflow: hidden; 
     border-right: .15em solid orange; 
     white-space: nowrap; 

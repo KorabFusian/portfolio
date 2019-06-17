@@ -12,6 +12,18 @@ code {
     monospace;
 }
 
-h1, h2, h3 {
+h1, h2, h3, h4, h5 {
   font-family: "Playfair Display", "Times New Roman", serif;
+}
+
+/* h4, h5, h6 {
+  text-decoration: underline #945afd;
+} */
+
+a {
+  color: #945afd
+}
+
+p {
+  font-size: 1.3em !important;
 }

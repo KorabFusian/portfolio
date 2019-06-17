@@ -25,6 +25,7 @@
 #text-logo {
   font-family: "Playfair Display", 'Times New Roman', Times, serif;
   font-weight: 700;
+  color: white;
   white-space: nowrap;
   margin: 0px;
 }

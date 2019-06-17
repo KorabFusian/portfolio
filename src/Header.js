@@ -5,11 +5,11 @@ import { Link } from "react-router-dom";
 function Header() {
   return (
     <header className="App-header">
-      <h4 id="text-logo">Ornella Friggit</h4>
+      <Link to="/"><h4 id="text-logo">Ornella Friggit</h4></Link>
       <nav id="Navbar">
-        <Link to="/work">My work</Link>
+        <Link to="/portfolio">My work</Link>
         <Link to="/about">About me</Link>
-        <Link to="/">Résumé</Link>
+        <Link to="/resume">Résumé</Link>
       </nav>
     </header>
   );

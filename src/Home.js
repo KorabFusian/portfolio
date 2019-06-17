@@ -6,7 +6,7 @@ function Home(props) {
   return (
     <div>
       <Intro />
-      <Projects projects={props.projectsList || []} />
+      <Projects {...props} />
     </div>
   );
 }

@@ -5,7 +5,7 @@ function Projects(props) {
   return (
     <div className="row">
     <h3>Recent projects</h3>
-      {props.projects.map(project => (
+      {props.projectsList.map(project => (
         <ProjectRow props={project} key={project.title} />
       ))}
     </div>

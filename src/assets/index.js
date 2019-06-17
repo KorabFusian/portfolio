@@ -2,17 +2,20 @@
 import projectsData from './projects_list.json'
 
 // Import images
-import moodmancer from './Moodmancer Screenshot.png'
+import moodmancerLogo from './Moodmancer_logo.png'
+import moodmancerScreenshot from './Moodmancer Screenshot.png'
 import purpleComputer from './purple-computer.jpeg'
+import salarySimScreenshot from './purple-computer.jpeg'
 import cauriGuide from './Cauri Guide Screenshot.png'
-import lmcc from './LMCC Screenshot.png'
+import cauriGuideScreenshot from './Cauri Guide Screenshot.png'
+import lmccLogo from './LMCC_Logo.png'
+import lmccScreenshot from './LMCC Screenshot.png'
 
-const images = [moodmancer, purpleComputer, cauriGuide, lmcc]
+const images = [moodmancerLogo, purpleComputer, cauriGuide, lmccLogo, moodmancerScreenshot, salarySimScreenshot, cauriGuideScreenshot, lmccScreenshot]
 
 export const projectsList = projectsData.map((projectData) => {
     const image = images[projectData.imageId]
-    const {title, description} = projectData
-    return {title, description, image}
+    return {...projectData, image}
 })
 
 export {default as logo} from './logo.svg'

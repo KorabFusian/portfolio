@@ -4,7 +4,7 @@ function About(props) {
   return (
     <div className="row">
       <div className="col s12 m4 l4">
-        <img src={props.images.aboutMe} alt="picture of Ornella Friggit" style={{ width: "94%", padding: "3%" }} />
+        <img src={props.images.aboutMe} alt="Ornella Friggit" style={{ width: "94%", padding: "3%" }} />
       </div>
       <div className="col s12 m8 l8 left-align">
         <h3>About me</h3>

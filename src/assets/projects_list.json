@@ -16,6 +16,21 @@
     "projectUrl": "https://moodmancer.com/"
   },
   {
+    "title": "Jupiter Tea",
+    "link": "jupitertea",
+    "description": "Built in one week with my 3 tea-loving collaborators, Christine Kim, Jia Li and Ayumi Ono, Jupiter Tea is an e-commerce site to shop for luxury teas. It is built with a REST API connected to a PostgreSQL database, and uses React/Redux on the front-end.",
+    "shortDesc": "Shop for luxury teas on this e-commerce site.",
+    "logo": "jupiterTeaLogo",
+    "technologies": [
+      "Node.JS / Express",
+      "PostgreSQL",
+      "React",
+      "Redux",
+      "Passport"
+    ],
+    "projectUrl": "https://jupitertea.herokuapp.com/"
+  },
+  {
     "title": "SalarySim",
     "link": "salarysim",
     "description": "Visualize your financial future and simulate different salaries.",

@@ -3,10 +3,10 @@ import "./styling/Single_project.css";
 import { Link } from "react-router-dom";
 
 function SingleProject(props) {
-  const project = props.projectsList[props.idx]
-  const logo = props.images[project.logo]
-  const prev = props.projectsList[props.idx - 1]
-  const next = props.projectsList[props.idx + 1]
+  const project = props.projectsList[props.idx];
+  const logo = props.images[project.logo];
+  const prev = props.projectsList[props.idx - 1];
+  const next = props.projectsList[props.idx + 1];
   return (
     <div className="row single-proj-container">
       <div className="single-proj-data">
@@ -21,7 +21,14 @@ function SingleProject(props) {
             {tech}
           </p>
         ))}
-        <a href={project.projectUrl}><button>Visit {project.title} Website</button></a>
+        <a href={project.projectUrl} target="_blank" rel="noopener noreferrer">
+          <button>Visit {project.title} Website</button>
+        </a>
+        {project.githubUrl && (
+          <a href={project.githubUrl} target="_blank" rel="noopener noreferrer">
+            <button>View {project.title} Code on Github</button>
+          </a>
+        )}
       </div>
       <div className="arrow-container">
         <div className="nav-arrow">

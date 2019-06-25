@@ -13,6 +13,7 @@
       "Redux",
       "Victory Charts"
     ],
+    "githubUrl": "https://github.com/friggito/Moodmancer",
     "projectUrl": "https://moodmancer.com/"
   },
   {
@@ -28,7 +29,8 @@
       "Redux",
       "Passport"
     ],
-    "projectUrl": "https://jupitertea.herokuapp.com/"
+    "githubUrl": "https://github.com/friggito/jupiter-teas",
+    "projectUrl": "https://jupiter-tea.herokuapp.com/"
   },
   {
     "title": "SalarySim",
@@ -43,6 +45,7 @@
       "Redux",
       "Victory Charts"
     ],
+    "githubUrl": "https://github.com/friggito/SalarySim",
     "projectUrl": "https://salarysim.herokuapp.com/"
   },
   {

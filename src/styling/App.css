@@ -14,3 +14,10 @@
 #content {
   margin-top: 110px;
 }
+
+.cta {
+  color: #000000;
+  font-family: "Josefin Sans";
+  text-transform: uppercase;
+  text-decoration: underline;
+}

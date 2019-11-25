@@ -21,12 +21,12 @@ function SingleProject(props) {
             {tech}
           </p>
         ))}
-        <a href={project.projectUrl} target="_blank" rel="noopener noreferrer">
-          <button>Visit {project.title} Website</button>
+        <a href={project.projectUrl} className="cta" target="_blank" rel="noopener noreferrer">
+          Visit {project.title} Website
         </a>
         {project.githubUrl && (
-          <a href={project.githubUrl} target="_blank" rel="noopener noreferrer">
-            <button>View {project.title} Code on Github</button>
+          <a href={project.githubUrl} className="cta" target="_blank" rel="noopener noreferrer">
+            View {project.title} Code on Github
           </a>
         )}
       </div>

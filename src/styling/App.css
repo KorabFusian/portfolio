@@ -20,4 +20,5 @@
   font-family: "Josefin Sans";
   text-transform: uppercase;
   text-decoration: underline;
+  display: block;
 }

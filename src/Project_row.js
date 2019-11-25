@@ -13,6 +13,7 @@ function ProjectRow(props) {
         <h4>{project.title}</h4>
       </Link>
       <p>{project.shortDesc}</p>
+      <Link to={project.link} className="cta">View project</Link>
     </div>
   );
 }

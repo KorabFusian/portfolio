@@ -1,7 +1,7 @@
 import React from "react";
-import "./styling/App.css";
+import "../styling/App.css";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import { projectsList, images, resumeUrl } from "./assets/index";
+import { projectsList, images, resumeUrl } from "../assets/index";
 
 // Components
 import About from "./About.js";

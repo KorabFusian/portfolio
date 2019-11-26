@@ -1,5 +1,5 @@
 import React from "react";
-import "./styling/Project_row.css";
+import "../styling/Project_row.css";
 import { Link } from "react-router-dom";
 
 function ProjectRow(props) {

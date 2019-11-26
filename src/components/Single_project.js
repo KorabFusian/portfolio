@@ -1,5 +1,5 @@
 import React from "react";
-import "./styling/Single_project.css";
+import "../styling/Single_project.css";
 import { Link } from "react-router-dom";
 
 function SingleProject(props) {

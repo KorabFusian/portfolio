@@ -3,10 +3,14 @@
     height: 250px;
     object-fit: cover;
     border-radius: 50%;
-    box-shadow: 3px 3px 8px;
+    box-shadow: 3px 3px 8px #5c1503;
 }
 
 .project-card {
     height: 500px;
     padding: 1rem !important;
+}
+
+a {
+    color: #5c1503
 }

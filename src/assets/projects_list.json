@@ -4,7 +4,7 @@
     "link": "wear",
     "description": "weAR est une cabine d'essayage virtuelle intégrée aux sites marchands qui permet d'essayer les vêtements en direct et d'ainsi limiter le nombre de retour clients.",
     "shortDesc": "La cabine d'essayage en réalité augmentée",
-    "logo": "weAR_logo",
+    "logo": "weARlogo",
     "technologies": [
       "OpenCV",
       "Unity3D"
@@ -16,7 +16,7 @@
     "link": "wayhome",
     "description": "wayHOME est une application \"garde du corps\" qui tracke la position de l'utilisateur pour informer ses proches en cas deproblème lors de leur trajet, idéal pour les enfants ou les adultes rentrant de soirée.",
     "shortDesc": "L'application bodyguard qui prévient vos proches quand vous arrivez à bon port (ou pas).",
-    "logo": "wayhome_logo",
+    "logo": "wayhomeLogo",
     "technologies": [
       "Dart",
       "Flutter"
@@ -28,7 +28,7 @@
     "link": "zboffice",
     "description": "Un jeu de rythme avec des éléments de roguelike et une bande son entièrement originale",
     "shortDesc": "Plongez dans un donjon et affrontez des monstres en rythme.",
-    "logo": "ZBOffice",
+    "logo": "ZbOfficeLogo",
     "technologies": [
       "Unity2D",
       "Adobe Illustrator"

@@ -13,7 +13,7 @@ function ProjectRow(props) {
         <h4>{project.title}</h4>
       </Link>
       <p>{project.shortDesc}</p>
-      <Link to={project.link} className="cta">Voir projet</Link>
+      <Link to={project.link} className="cta">Voir le projet</Link>
     </div>
   );
 }

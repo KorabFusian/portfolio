@@ -15,12 +15,12 @@
     width: 15vw;
     object-fit: cover;
     border-radius: 50%;
-    box-shadow: 3px 3px 8px #945afd;
+    box-shadow: 3px 3px 8px #5c1503;
     margin-top: 1.95rem;
 }
 
 .material-icons {
-    color: #945afd;
+    color: #5c1503;
 }
 
 .material-icons.transparent {

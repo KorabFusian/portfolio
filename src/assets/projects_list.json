@@ -1,78 +1,38 @@
 [
   {
-    "title": "Moodmancer",
-    "link": "moodmancer",
-    "description": "Moodmancer is a full-featured mood and habit tracker web application that uses supervised machine learning and data visualization to understand the habits and outside factors that affect users' moods.\nMoodmancer was built on Node.js with 3 other developers: Dani Jordan, Torri Raines and Halim Chu. We used Brain.js to create a neural network that takes in a user's activities for the day and returns a prediction for their moods, and Victory Charts to view moods and habits over time.",
-    "shortDesc": "Track and predict your moods and activities, with machine learning and data visualization",
-    "logo": "moodmancerLogo",
+    "title": "weAR",
+    "link": "wear",
+    "description": "weAR est une cabine d'essayage virtuelle intégrée aux sites marchands qui permet d'essayer les vêtements en direct et d'ainsi limiter le nombre de retour clients.",
+    "shortDesc": "La cabine d'essayage en réalité augmentée",
+    "logo": "weAR_logo",
     "technologies": [
-      "Brain.js",
-      "Node.JS / Express",
-      "PostgreSQL",
-      "React",
-      "Redux",
-      "Victory Charts"
+      "OpenCV",
+      "Unity3D"
     ],
-    "githubUrl": "https://github.com/friggito/Moodmancer",
-    "projectUrl": "https://moodmancer.com/"
+    "gitlabUrl": "https://gitlab.com/road-to-innovation-day/pa8"
   },
   {
-    "title": "Jupiter Tea",
-    "link": "jupitertea",
-    "description": "Built in one week with my 3 tea-loving collaborators, Christine Kim, Jia Li and Ayumi Ono, Jupiter Tea is an e-commerce site to shop for luxury teas. It is built with a REST API connected to a PostgreSQL database, and uses React/Redux on the front-end.",
-    "shortDesc": "Shop for luxury teas on this e-commerce site.",
-    "logo": "jupiterTeaLogo",
+    "title": "wayHOME",
+    "link": "wayhome",
+    "description": "wayHOME est une application \"garde du corps\" qui tracke la position de l'utilisateur pour informer ses proches en cas deproblème lors de leur trajet, idéal pour les enfants ou les adultes rentrant de soirée.",
+    "shortDesc": "L'application bodyguard qui prévient vos proches quand vous arrivez à bon port (ou pas).",
+    "logo": "wayhome_logo",
     "technologies": [
-      "Node.JS / Express",
-      "PostgreSQL",
-      "React",
-      "Redux",
-      "Passport"
+      "Dart",
+      "Flutter"
     ],
-    "githubUrl": "https://github.com/friggito/jupiter-teas",
-    "projectUrl": "https://jupiter-tea.herokuapp.com/"
+    "githubUrl": "https://github.com/AmiralBl3ndic/wayhome-app"
   },
   {
-    "title": "SalarySim",
-    "link": "salarysim",
-    "description": "Visualize your financial future and simulate different salaries.",
-    "shortDesc": "Visualize your financial future and simulate different salaries.",
-    "logo": "salarySimLogo",
+    "title": "Zombeat Office",
+    "link": "zboffice",
+    "description": "Un jeu de rythme avec des éléments de roguelike et une bande son entièrement originale",
+    "shortDesc": "Plongez dans un donjon et affrontez des monstres en rythme.",
+    "logo": "ZBOffice",
     "technologies": [
-      "Node.JS / Express",
-      "PostgreSQL",
-      "React",
-      "Redux",
-      "Victory Charts"
+      "Unity2D",
+      "Adobe Illustrator"
     ],
-    "githubUrl": "https://github.com/friggito/SalarySim",
-    "projectUrl": "https://salarysim.herokuapp.com/"
-  },
-  {
-    "title": "Cauri Guide",
-    "link": "cauriguide",
-    "description": "Cauri Guide is a web app to promote New York City's Black and Latinx-owned businesses. I built the site with Wordpress, using Beaver Builder, a drag-and-drop plugin that allowed me to create the design of the whole site. I also used Geodirectory, a tool to list places and locate them on a map, interacting with the Google Maps API.",
-    "shortDesc": "Browse over 2500 Black & Latinx-owned businesses sourced from NYC Open Data.",
-    "logo": "cauriGuideLogo",
-    "technologies": [
-      "Wordpress",
-      "Geodirectory Plugin",
-      "Beaver Builder Plugin", 
-      "Adobe Illustrator",
-      "Adobe Photoshop"
-    ],
-    "projectUrl": "https://cauriguide.com/"
-  },
-  {
-    "title": "LMCC",
-    "link": "lmcc",
-    "description": "A website built for Lower Manhattan Cultural Council (LMCC) to present the company and share resources. The previous website had not been answering the stakeholders' needs, so over a period of 6 months, I was tasked with building a new site architecture, design and aesthetic to respond to all users' expectations.\nThe site was built on Wordpress with an eye towards maintainability, using Beaver Builder to fully control the design of the site. It is also mobile-responsive, with some adaptive elements (such as a hamburger menu), and it is navigable despite its dozens of pages thanks to navigation breadcrumbs.",
-    "shortDesc": "Learn about Manhattan's arts council and discover opportunities to create and consume art.",
-    "logo": "lmccLogo",
-    "technologies": [
-      "Wordpress",
-      "Beaver Builder Plugin"
-    ], 
-    "projectUrl": "https://lmcc.net/"
+    "githubUrl": "https://github.com/AmiralBl3ndic/Zombeat-Office"
   }
 ]

@@ -34,10 +34,10 @@ class App extends React.Component {
               ))}
               <Route
                 exact
-                path="/portfolio"
+                path="/code"
                 render={props => <Projects {...this.state} />}
               />
-                            <Route
+              <Route
                 exact
                 path="/resume"
                 render={props => <Resume resumeUrl={this.state.resumeUrl} />}

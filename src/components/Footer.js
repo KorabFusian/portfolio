@@ -7,31 +7,24 @@ function Footer() {
       <p>
         Github:{" "}
         <a
-          href="http://github.com/friggito"
+          href="http://github.com/KorabFusian"
           target="_blank"
           rel="noopener noreferrer"
         >
-          @friggito
+          @KorabFusian
         </a>
         {"    "}|{"    "}Linkedin:{" "}
         <a
-          href="http://linkedin.com/in/friggito"
+          href="http://linkedin.com/in/jeremi-friggit"
           target="_blank"
           rel="noopener noreferrer"
         >
-          /friggito
+          in/jeremi-friggit
         </a>
-        {"    "}|{"    "}Twitter:{" "}
-        <a
-          href="http://twitter.com/friggito"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          @friggito
-        </a>
+        
       </p>
       <p>
-        <a href="mailto:ornella.friggit@gmail.com">ornella.friggit@gmail.com</a>
+        <a href="mailto:jeremifk@gmail.com">jeremifk@gmail.com</a>
       </p>
     </footer>
   );

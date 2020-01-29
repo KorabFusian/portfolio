@@ -4,7 +4,7 @@ import ProjectRow from "./Project_row";
 function Projects(props) {
   return (
     <div className="row">
-    <h3>Recent projects</h3>
+    <h3>Projets récents</h3>
       {props.projectsList.map(project => (
         <ProjectRow project={project} logo={props.images[project.logo]} key={project.title} />
       ))}

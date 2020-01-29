@@ -13,7 +13,7 @@ function SingleProject(props) {
         <img className="single-proj-img" src={logo} alt={project.logo} />
         <h3>{project.title}</h3>
         <p>{project.description}</p>
-        <h4>Technologies used:</h4>
+        <h4>Technologies utilisées:</h4>
         {project.technologies.map(tech => (
           <p key={tech}>
             <i className="material-icons">build</i>
@@ -21,12 +21,19 @@ function SingleProject(props) {
             {tech}
           </p>
         ))}
+        {project.projectUrl && (
         <a href={project.projectUrl} className="cta" target="_blank" rel="noopener noreferrer">
           Visit {project.title} Website
         </a>
+        )}
         {project.githubUrl && (
           <a href={project.githubUrl} className="cta" target="_blank" rel="noopener noreferrer">
-            View {project.title} Code on Github
+            Voir le code de {project.title} sur Github
+          </a>
+        )}
+        {project.gitlabUrl && (
+          <a href={project.gitlabUrl} className="cta" target="_blank" rel="noopener noreferrer">
+            Voir le code de {project.title} sur Gitlab
           </a>
         )}
       </div>
